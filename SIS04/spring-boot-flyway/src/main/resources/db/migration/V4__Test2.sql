@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS test2 (
+    id    SERIAL,
+    email VARCHAR(200) NOT NULL,
+    name  VARCHAR(200) NOT NULL,
+    PRIMARY KEY (id)
+);
